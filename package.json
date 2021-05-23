@@ -9,8 +9,12 @@
   "author": "bcjohn",
   "license": "MIT",
   "dependencies": {
+    "clsx": "^1.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-query": "^3.16.0",
+    "react-spring": "^9.1.2",
+    "react-use-websocket": "^2.7.1",
     "tailwindcss": "^2.1.2",
     "typescript": "^4.2.4"
   },
@@ -21,8 +25,10 @@
     "@babel/preset-env": "^7.14.2",
     "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.13.0",
+    "@svgr/webpack": "^5.5.0",
     "@types/react": "^17.0.5",
     "@types/react-dom": "^17.0.5",
+    "@types/tailwindcss": "^2.0.3",
     "autoprefixer": "^10.2.5",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.4",

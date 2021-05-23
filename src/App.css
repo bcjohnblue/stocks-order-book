@@ -5,3 +5,13 @@
 .App {
   margin: 10px;
 }
+
+.item-hover::before {
+  content: '';
+  position: fixed;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 18px 20px 0;
+  border-color: transparent #57626E transparent transparent;
+}
